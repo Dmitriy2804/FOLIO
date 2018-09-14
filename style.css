@@ -1,0 +1,198 @@
+@font-face{
+    font-family: "BebasNeue";
+    src: url(Fonts/BebasNeue.ttf);
+}
+
+*{
+    font-family: "BebasNeue", sans-serif;
+    padding: 0;
+    margin: 0;
+}
+img{
+    height: 100%;
+    width: 100%;
+}
+
+.container{
+    height: 100%;
+    margin: 0 auto;
+    width: 940px;
+}
+
+header{
+    background-image: url(Images/header-bg.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 500px;
+}
+.titles{
+    color: white;
+    height: 100%;
+    padding-left: 7%;
+    text-transform: uppercase;
+    width: 93%;
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.titles h1{
+    font-size: 70px;
+}
+.titles h2{
+    font-size: 36px;
+}
+
+.menu{
+    background-color: #252222;
+    height: 100px;
+    width: 100%;
+}
+.innerMenu{
+    color: white;
+    height: 100%;
+    padding-left: 3%;
+    width: 97%;
+    
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.innerMenu h1{
+    font-size: 48px;
+    margin-top: 12px;
+}
+.NaS{
+    height: 100%;
+    width: 480px;
+    
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+nav{
+    padding-top: 14px;
+    width: 244px;
+    
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+nav a{
+    
+    color: white;
+    display: block;
+    font-size: 18px;
+    height: 32px;
+    text-align: center;
+    text-decoration: none;
+    width: 25%;
+}
+nav a:hover{
+    color: #65ba99;
+    border-bottom: 2px solid #65ba99;
+    
+}
+.socials{
+    width: 180px;
+    
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.socials a{
+    background: white;
+    border-radius: 50%;
+    color: #252222;
+    display: block;
+    font-size: 18px;
+    height: 27px;
+    padding-top: 9px;
+    text-align: center;
+    text-decoration: none;
+    width: 36px;
+    
+}
+.socials a:nth-of-type(3){
+    font-size: 16px;
+    height: 25px;
+    padding-top: 11px;
+}
+.socials a:hover{
+    background: #65ba99;
+    transition: 0.3s;
+}
+
+.portfolio{
+    background: #65ba99;
+    height: 131.25vw;
+}
+.portTitles{
+    color: white;
+    font-size: 24px;
+    height: 174px;
+    text-transform: uppercase;
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.portTitles h1{
+    font-size: 48px;
+    margin-bottom: 15px;
+}
+.row{
+    height: 255px;
+    width: 100%;
+    
+    display: flex;
+}
+.smallRow{
+    height: 255px;
+}
+.bigRow{
+    height: 350px;
+}
+.collage i:hover{
+    color: white;
+    font-size: 40px;
+}
+.widePhoto{
+    height: 100%;
+    width: 50%;
+}
+.smallPhoto{
+    width: 25%;
+}
+.photo:hover{
+    cursor: pointer;
+    opacity: 0.5;
+    transition: 0.2s;
+}
+.photo{
+    background-image: url(Images/photo-template.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #DDD;
+    font-size: 30px;
+    
+    display: flex;
+}
+.photo div{
+    display: none;
+    height: 100%;
+    width: 50%;
+    
+    align-items: center;
+    justify-content: center;
+}
+.photo:hover div{
+    display: flex;
+}
+
+#p3{
+    background-image: url(Images/blackMen.png);
+}
