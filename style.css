@@ -2,6 +2,7 @@
     font-family: "BebasNeue";
     src: url(Fonts/BebasNeue.ttf);
 }
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
 
 *{
     font-family: "BebasNeue", sans-serif;
@@ -11,6 +12,9 @@
 img{
     height: 100%;
     width: 100%;
+}
+a:hover{
+    cursor: pointer;
 }
 
 .container{
@@ -90,8 +94,8 @@ nav a{
     width: 25%;
 }
 nav a:hover{
-    color: #65ba99;
-    border-bottom: 2px solid #65ba99;
+    color: #7F8CFA;
+    border-bottom: 2px solid #7F8CFA;
     
 }
 .socials{
@@ -114,19 +118,14 @@ nav a:hover{
     width: 36px;
     
 }
-.socials a:nth-of-type(3){
-    font-size: 16px;
-    height: 25px;
-    padding-top: 11px;
-}
 .socials a:hover{
-    background: #65ba99;
+    background: #7F8CFA;
     transition: 0.3s;
 }
 
 .portfolio{
-    background: #65ba99;
-    height: 131.25vw;
+    background: #391DB6;
+    height: 1700px;
 }
 .portTitles{
     color: white;
@@ -164,6 +163,7 @@ nav a:hover{
     width: 50%;
 }
 .smallPhoto{
+    height: 100%;
     width: 25%;
 }
 .photo:hover{
@@ -192,7 +192,140 @@ nav a:hover{
 .photo:hover div{
     display: flex;
 }
-
 #p3{
     background-image: url(Images/blackMen.png);
+}
+
+.article{
+    background: url(Images/space.jpg);
+    color: white;
+    font-size: 36px;
+    height: 300px;
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.news{
+    background-color: #cdcdcd;
+    display: none;
+    height: 680px;
+}
+.title{
+    color: #252222;
+    font-size: 48px;
+    font-weight: 700;
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.newsTitle{
+    height: 189px;
+}
+
+.partners{
+    background-color: #bebebe;
+    height: 200px;
+}
+.partners .container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+#canon{
+    height: 32px;
+    width: 151px;
+}
+#nikon{
+    height: 38px;
+    width: 143px;
+}
+#man{
+    height: 49px;
+    width: 246px;
+}
+#pro{
+    height: 34px;
+    width: 146px;
+}
+
+.bio{
+    color: white;
+    background-color: #252222;
+    height: 600px;
+}
+.bioTitle{
+    color: white;
+    height: 160px;
+}
+.photograferAndText{
+    height: 440px;
+    
+    display: flex;
+}
+.partOfBio{
+    height: 100%;
+    width: 50%;
+}
+.bio h1{
+    font-size: 36px;
+    margin-bottom: 37px;
+    text-align: center;
+}
+.yourPhoto{
+    background: white;
+    border-radius: 50%;
+    height: 230px;
+    margin: 0 auto 48px;
+    width: 230px;
+}
+.bio .socials{
+    margin: 0 auto;
+}
+.bio h2{
+    font-size: 18px;
+    margin-bottom: 22px;
+}
+.bio p{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    line-height: 18px;
+    margin-bottom: 16px;
+}
+
+footer{
+    background-image: url(Images/footer-bg.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 530px;
+}
+footer h1{
+    color: white;
+    font-size: 40px;
+    margin-bottom: 30px;
+    text-align: center;
+}
+.email{
+    background: #30378E;
+    border: 5px solid white;
+    border-radius: 10px;
+    color: white;
+    font-size: 48px;
+    font-weight: 700;
+    height: 90px;
+    line-height: 30px;
+    margin: 0 auto;
+    width: 80%;
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.email:hover{
+    background: #612E94;
+    cursor: pointer;
+    transition: 0.5s;
 }
